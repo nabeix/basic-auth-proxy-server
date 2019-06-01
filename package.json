@@ -1,0 +1,30 @@
+{
+  "name": "basic-auth-proxy-server",
+  "version": "0.0.1",
+  "description": "A simple http proxy server with basic auth",
+  "main": "lib/index.js",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "basic-auth-proxy-server": "./bin/basic-auth-proxy-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabeix/basic-auth-proxy-server.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nabeix/basic-auth-proxy-server/issues"
+  },
+  "homepage": "https://github.com/nabeix/basic-auth-proxy-server#readme",
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "http-proxy": "^1.17.0"
+  }
+}
